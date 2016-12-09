@@ -21,7 +21,7 @@ Then copy your local file in the HDFS directory. For example if you have a file 
 ```
 hadoop fs -copyFromLocal Documents/Test.txt hdfs://localhost/user/root/Test.txt
 ```
-Once you are done with copying the file to HDFS, you can run the script "word_count.py" from it's directory. Mind it, it's not a normal python script to execute so "python word_count.py" will not work so we have to use spark commands to do that. 
+Once you are done with copying the file to HDFS, you can run the script "word_count.py" from it's directory. Mind it, it's not a normal python script to execute so "python word_count.py" will not work, we have to use spark commands to do that. 
 
 Run the script using the following command:
 ```
@@ -30,4 +30,4 @@ spark-submit --master yarn --deploy-mode client --executor-memory 1g --name word
 
 If everything goes well, you will get 3(Three) files "output.txt"(for the word and character counts in text format), "output.csv"(for the word counts in CSV format) and "char_output.csv"(for the character counts in CSV format) in the same directory where "word_count.py" is.
 
-Voila!! 
+And you are DONE!! Voila!! 
