@@ -1,7 +1,7 @@
 # @Author: mdrhri-6
 # @Date:   2016-12-09T05:55:12+01:00
 # @Last modified by:   mdrhri-6
-# @Last modified time: 2016-12-09T15:58:09+01:00
+# @Last modified time: 2016-12-09T16:23:10+01:00
 
 
 
@@ -44,7 +44,7 @@ for each in output:
 f.close()
 
 # write word count in a csv file
-fp = open("output.csv", "w")
+fp = open("word_output.csv", "w")
 writer = csv.writer(fp, dialect="excel")
 writer.writerows(collect_words)
 fp.close()
