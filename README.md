@@ -17,9 +17,9 @@ If you do not have that "root" directory, you can create it using the following 
 ```
 sudo -u hdfs hadoop fs -mkdir /user/root
 ```
-Then copy your local file in the HDFS directory. For example if you have a file "Test.txt" in Documents directory, you can copy it to HDFS using the following command.
+Then copy your local file in the HDFS directory. For example if you have the input file "input_textfile.txt" in Documents directory, you can copy it to HDFS using the following command.
 ```
-hadoop fs -copyFromLocal Documents/Test.txt hdfs://localhost/user/root/Test.txt
+hadoop fs -copyFromLocal Documents/input_textfile.txt hdfs://localhost/user/root/input_textfile.txt
 ```
 Once you are done with copying the file to HDFS, you can run the script "word_count.py" from it's directory. Mind it, it's not a normal python script to execute so "python word_count.py" will not work, we have to use spark commands to do that. 
 
