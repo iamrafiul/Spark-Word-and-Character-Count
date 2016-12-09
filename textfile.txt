@@ -1,0 +1,13 @@
+hello this is a sample text file in spark
+in this text file i have some lines of text
+it is for test purpose only
+if you want to test spark for map reduce type of job you can use this file
+this file contains some words just to text how map reduce works in spark
+you can always add anything useless here
+use this file and add as much lines as you can
+it will not do any harm to the humanity
+humanity will survive even if you have this file
+humanity does not give a damn to this file
+if you are lazy and careless think about spark
+spark is also lazy and do not do anything beforewards unless it is needed
+it only does work when it has do
